@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+    background-color: #23252C;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    color: #F5F5F5;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 10.24px;
+    text-align: center;
+}
+
+button {
+    background-color: #ffffff;
+    color: #374151;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+button:hover {
+    opacity: 90%;
+}
+
+#root {
+    width: 400px;
+    background-color: #1A1B21;
+    border: none;
+    border-radius: 24px;
+}
+
+#profile-pic {
+    width: 100%;
+}
+
+#header > main {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+main > h1 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+}
+
+main > .role {
+    color: #F3BF99;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12.8px;
+    text-align: center;
+}
+
+h2 {
+    color: #F5F5F5;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+p {
+    color: #DCDCDC;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+#about, #interests {
+    padding: 12px 24px;
+}
+
+#footer {
+    background-color: #161619;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+#footer > img {
+    width: 24px;
+}
+
+#footer > a:hover {
+    opacity: 90%;
+}
